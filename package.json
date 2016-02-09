@@ -8,13 +8,13 @@
     "npm": "1.2.x"
   },
   "dependencies": {
-    "config-multipaas": "^0.1.0",
-    "routes-router": "^4.1.2",
-    "send-data": "^7.0.0",
-    "st": "^0.5.3"
+    "config-multipaas": "^0.2.1",
+    "routes-router": "^4.2.1",
+    "send-data": "^8.0.0",
+    "st": "^1.1.0"
   },
   "devDependencies": {
-    "tap": "^0.4.13"
+    "tap": "^5.4.3"
   },
   "repository": {
     "type": "git",
