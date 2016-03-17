@@ -24,6 +24,14 @@ app.addRoute("/", function (req, res, opts, cb) {
   })
 })
 
+app.addRoute("/hostname", function (req, res, opts, cb) {
+  var data = "<p>Hostname: " + config.get('HOSTNAME') + "</p>";
+  sendHtml(req, res, {
+    body: data,
+    statusCode: 200
+  })
+})
+
 // Serve all the static assets prefixed at /static
 // so GET /js/app.js will work.
 app.addRoute("/*", st({
