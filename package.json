@@ -11,7 +11,7 @@
     "config-multipaas": "^0.2.2",
     "routes-router": "^4.2.1",
     "send-data": "^8.0.0",
-    "st": "^1.1.0"
+    "st": "^1.2.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
