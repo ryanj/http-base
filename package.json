@@ -13,10 +13,7 @@
     "send-data": "^8.0.0",
     "st": "^1.1.0"
   },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "tap": "^5.7.1"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanj/http-base.git"
